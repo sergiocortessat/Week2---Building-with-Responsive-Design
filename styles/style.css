@@ -93,21 +93,22 @@
   /* section 4 */
 
   .findings-section {
-    display: block;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
   }
 
   .findings-section > div {
     border: 1px solid black;
-    text-align: center;
-    width: 33%;
-    height: auto;
+    width:100%;
+    font-size:5px;
   }
 
-  .text-over-image1 {
+  #text-over-image1 {
     background-image: url(/images/image16.jpeg);
     background-position: center;
     background-size: cover;
-  }
+   }
 
   .text-over-image2 {
     background-image: url(/images/image17.jpeg);
@@ -162,9 +163,14 @@
     height: auto;
   }
 
-  .latest-image img {
-    width: 60%;
-    height: 60%;
+  .latest-news img {
+    float:right;
+  }
+
+  .latest-news {
+    display:flex;
+    border:2px solid black;
+    flex-direction: row;
   }
 
   /* section 5 */
@@ -237,6 +243,32 @@
 .footer2 {
   background-color: black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 760px) {
   .nav-barlogo {
