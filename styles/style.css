@@ -43,6 +43,8 @@
 
 /* main part */
 
+
+/* SECTION1*/
 #G1 {
     grid-area: G1;
     background-color: teal;
@@ -79,6 +81,7 @@
 }
 
 
+<<<<<<< HEAD
 /* section 5 */
 
 .discount-section-main {
@@ -90,4 +93,41 @@
   .discount-section-main > div {
     border:1px solid black;
     text-align: center;
+=======
+/* SECTION2 */
+
+#G1 {
+    grid-area: G1;
+    background-color: teal;
+    background-image: url(/images/image1.jpeg);
+    background-position: center;
+    background-size: cover;
+
+  
+}
+
+#G2 {
+    grid-area: G2;
+    background-image: url(/images/image2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#G3 {
+    grid-area: G3;
+    background-image: url(/images/image3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section1-grid {
+    display: grid;
+    grid-template-areas: "G1 G1 G1 G1 G2 G2 G2"
+                        "G1 G1 G1 G1 G2 G2 G2"
+                        "G1 G1 G1 G1 G3 G3 G3"
+                        "G1 G1 G1 G1 G3 G3 G3";
+
+    grid-gap: 5px;
+                    
+>>>>>>> 1a8bfbdf6734f292e83c6d034633b5c8095e77e7
 }
