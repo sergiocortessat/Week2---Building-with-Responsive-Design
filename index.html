@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Project with responsive design_TNW</title>
   <link rel="stylesheet" href="styles/style.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://g1.nyt.com/fonts/css/web-fonts.5810def60210a2fa7d0848f37e3fa048bb6147b1.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/4a980e3ee7.js"></script>
 </head>
 
 <body>
@@ -90,16 +91,16 @@
 
     <!--section2-->
 
-    <article class="section2-grid">
-      <h2><a href="#">Latest news</a></h2>
-      <div class="section2">
-        <div class="msection2-items section2-items">
-          <img class="msection2-img section2-img" src="images/image4.jpg">
+    <article class="section2">
+      <div><h2 id="S2header"><a href="#">Latest news</a></h2></div>
+      <div class="section2-grid">
+        <div class="msection2-items section2-items" id="S2.1">
+          <img class="msection2-img section2-img" src="images/image4.jpg" width="20%" height="20%">
           <h4><a href="#">Sort your favorite YouTube channels into into folders with this free app</a> </h4>
           <p><a class="msection2-text section2-text" href="#">Ivan Mehta <time datetime="2021-01-18T07:00:30+00:00"
                 data-full-date="Jan 18, 2021 - 08:00">1 hours ago</time></a></p>
         </div>
-        <div class="msection2-items section2-items">
+        <div class="msection2-items section2-items" id="S2.2">
           <img class="msection2-img section2-img" src="images/image5.jpg">
           <h4><a href="#">Lightkey Pro uses AI to know what you’re going to type before you type it</a>
           </h4>
@@ -108,7 +109,7 @@
                 data-full-date="Jan 18, 2021 - 08:00">17 hours ago</time></a>
         </div>
 
-        <div class="msection2-items section2-items">
+        <div class="msection2-items section2-items" id="S2.3">
           <img class="msection2-img section2-img" src="images/image6.jpg">
           <h4><a href="#">AI imaging database for COVID-19 diagnosis provided to UK hospitals</a>
           </h4>
@@ -116,7 +117,7 @@
             <a class="msection2-text section2-text"><time datetime="2021-01-18T07:00:30+00:00"
                 data-full-date="Jan 18, 2021 - 08:00">17 hours ago</time></a>
         </div>
-        <div class="msection2-items section2-items">
+        <div class="msection2-items section2-items" id="S2.4">
           <img class="msection2-img section2-img" src="images/image6.jpg">
           <h4><a href="#">Stupid CES gadgets my home doesn't need... but I must have them</a>
           </h4>
@@ -125,7 +126,7 @@
                 data-full-date="Jan 18, 2021 - 08:00">19 hours ago</time></a>
         </div>
 
-        <div class="msection2-items section2-items">
+        <div class="msection2-items section2-items" id="S2.5">
           <img class="msection2-img section2-img" src="images/image6.jpg">
           <h4><a href="#">Rolls-Royce boldly skips hybrids and goes all-electric with new EV lineup</a>
           </h4>
@@ -133,7 +134,7 @@
             <a class="msection2-text section2-text"><time datetime="2021-01-18T07:00:30+00:00"
                 data-full-date="Jan 18, 2021 - 08:00">19 hours ago</time></a>
         </div>
-        <div class="msection2-items section2-items">
+        <div class="msection2-items section2-items" id="S2.6">
           <img class="msection2-img section2-img" src="images/image6.jpg">
           <h4><a href="#">What is semi-supervised machine learning?</a>
           </h4>
@@ -141,7 +142,7 @@
             <a class="msection2-text section2-text"><time datetime="2021-01-18T07:00:30+00:00"
                 data-full-date="Jan 18, 2021 - 08:00">20 hours ago</time></a>
         </div>
-        <div class="msection2-items section2-items">
+        <div class="msection2-items section2-items" id="S2.7">
           <img class="msection2-img section2-img" src="images/image6.jpg">
           <h4><a href="#">Sell for scrap or split for parts? What to do with your old car</a>
           </h4>
@@ -149,7 +150,7 @@
             <a class="msection2-text section2-text"><time datetime="2021-01-18T07:00:30+00:00"
                 data-full-date="Jan 18, 2021 - 08:00">21 hours ago</time></a>
         </div>
-        <div class="msection2-items section2-items">
+        <div class="msection2-items section2-items" id="S2.8">
           <img class="msection2-img section2-img" src="images/image6.jpg">
           <h4><a href="#">Here's how to simplify your app (and get more customers)</a>
           </h4>
@@ -157,7 +158,6 @@
             <a class="msection2-text section2-text"><time datetime="2021-01-18T07:00:30+00:00"
                 data-full-date="Jan 18, 2021 - 08:00">21 hours ago</time></a>
         </div>
-      </div>
       </article>
 
     <!--section3-->
@@ -566,15 +566,15 @@
   <footer>
     <div class="footer1">
       <div class="footer1-icons">
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+        <div>
+          <a><i class="fab fa-facebook"></i></a>
+          <a><i class="fab fa-twitter-square"></i></a>
+          <a><i class="fab fa-youtube"></i></a>
+          <a><i class="fab fa-instagram"></i></a>
+          <a><i class="fab fa-pinterest"></i></a>
+          <a><i class="fas fa-rss"></i></a>
+          <a><i class="fas fa-envelope"></i></a>
+          </div>
       </div>
       <div class="footer1-links">
         <ul>
@@ -596,10 +596,10 @@
   <!--ASIDE left and rigth button-->
   <aside>
     <div class="aside-right">
-      <img src="#" alt="art"></img>
+      <img src="assets/svgexport-3.svg" alt="art">
     </div>
     <div class="aside-left">
-      <img src="#" alt="art">
+      <img src="assets/svgexport-4.svg" alt="art">
     </div>
   </aside>
 
