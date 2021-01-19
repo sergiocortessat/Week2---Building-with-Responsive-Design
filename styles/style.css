@@ -83,41 +83,6 @@
 
 /* SECTION2 */
 
-#S2.1 {
-  grid-area: S2.1;
-}
-
-#S2.2 {
-  grid-area: S2.2;
-}
-
-#S2.3 {
-  grid-area: S2.3;
-}
-
-#S2.4 {
-  grid-area: S2.4;
-}
-
-#S2.5 {
-  grid-area: S2.5;
-}
-
-#S2.6 {
-  grid-area: S2.6;
-}
-
-#S2.7 {
-  grid-area: S2.7;
-}
-
-#S2.8 {
-  grid-area: S2.8;
-}
-
-#S2header {
-  grid-area: S2header;
-}
 
 .section2-grid {
   display: grid;
