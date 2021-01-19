@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+.nav-barlogo {
+    display: none;
+}
+
+.nav-bar1-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.nav-bar1-top a {
+    font-size: 100%;
+    padding: 0.6rem 0.3rem;
+}
+
+.nav-bar1-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 2px;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.nav-bar1-bottom a {
+    font-size: 100%;
+    padding: 0.6rem 0.3rem;
+}
+
+
+.menu-icon {
+    display: none;
+}
