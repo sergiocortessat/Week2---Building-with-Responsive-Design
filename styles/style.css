@@ -172,6 +172,82 @@
   }
 }
 
+.footer1 {
+    background-color:#131313
+    ;
+    color:white;
+}
+
+.footer1-icons {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer1-icons-images {
+   padding: 15px 15px;
+    background-color:#555;
+    border:2 solid darkcyan;
+    border-radius: 50%;  
+}
+
+.footer1-icons-images:hover {
+    padding: 15px 15px;
+     background-color: black;
+     border:2px solid darkcyan;
+     border-radius: 50%;  
+ }
+
+ .footer1-links {
+     margin-top: 25px;
+     display:inline;
+     padding:20px;
+     text-align: center;
+ }
+
+ .footer1-links a {
+   color:white;
+   padding:6px;
+   text-decoration: none;
+ }
+
+ .footer1-links a:hover {
+  font-weight: bolder;
+  }
+
+ .footer1 >div {
+     display:block;
+ }
+
+ .footer2 {
+     background-color: black;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 761px) {
     .nav-barlogo {
         display: none;
