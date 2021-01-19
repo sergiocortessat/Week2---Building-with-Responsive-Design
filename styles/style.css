@@ -41,3 +41,16 @@
     display: none;
 }
 
+/* main part */
+
+.section1-grid {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: blue;
+    padding:2rem;
+}
+
+.section-main {
+    grid-row:1,3;
+    width:50%;
+   }
