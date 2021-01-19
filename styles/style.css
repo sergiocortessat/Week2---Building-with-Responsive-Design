@@ -2,131 +2,143 @@
   box-sizing: border-box;
 }
 .nav-barlogo {
-    display: none;
+  display: none;
 }
 
 .nav-bar1-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: black;
-    color: white;
-    padding: 2px;
-    width: 100%;
-    padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 2px;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 .nav-bar1-top a {
-    font-size: 100%;
-    padding: 0.6rem 0.3rem;
+  font-size: 100%;
+  padding: 0.6rem 0.3rem;
 }
 
 .nav-bar1-bottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: white;
-    padding: 2px;
-    width: 100%;
-    padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding: 2px;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 .nav-bar1-bottom a {
-    font-size: 100%;
-    padding: 0.6rem 0.3rem;
+  font-size: 100%;
+  padding: 0.6rem 0.3rem;
 }
 
-
 .menu-icon {
-    display: none;
+  display: none;
 }
 
 /* main part */
 
-
 /* SECTION1*/
 #G1 {
-    grid-area: G1;
-    background-color: teal;
-    background-image: url(/images/image1.jpeg);
-    background-position: center;
-    background-size: cover;
-
-  
+  grid-area: G1;
+  background-color: teal;
+  background-image: url(/images/image1.jpeg);
+  background-position: center;
+  background-size: cover;
 }
 
 #G2 {
-    grid-area: G2;
-    background-image: url(/images/image2.png);
-    background-position: center;
-    background-size: cover;
+  grid-area: G2;
+  background-image: url(/images/image2.png);
+  background-position: center;
+  background-size: cover;
 }
 
 #G3 {
-    grid-area: G3;
-    background-image: url(/images/image3.jpeg);
-    background-position: center;
-    background-size: cover;
+  grid-area: G3;
+  background-image: url(/images/image3.jpeg);
+  background-position: center;
+  background-size: cover;
 }
 
 .section1-grid {
-    display: grid;
-    grid-template-areas: "G1 G1 G1 G1 G2 G2 G2"
-                        "G1 G1 G1 G1 G2 G2 G2"
-                        "G1 G1 G1 G1 G3 G3 G3"
-                        "G1 G1 G1 G1 G3 G3 G3";
+  display: grid;
+  grid-template-areas:
+    "G1 G1 G1 G1 G2 G2 G2"
+    "G1 G1 G1 G1 G2 G2 G2"
+    "G1 G1 G1 G1 G3 G3 G3"
+    "G1 G1 G1 G1 G3 G3 G3";
 
-    grid-gap: 5px;
-                    
+  grid-gap: 5px;
 }
 
+.section2-grid img {
+  width: 20%;
+  height: 20%;
+}
 
 /* SECTION2 */
 
-#G1 {
-    grid-area: G1;
-    background-color: teal;
-    background-image: url(/images/image1.jpeg);
-    background-position: center;
-    background-size: cover;
-
-  
+#S2.1 {
+  grid-area: S2.1;
 }
 
-#G2 {
-    grid-area: G2;
-    background-image: url(/images/image2.png);
-    background-position: center;
-    background-size: cover;
+#S2.2 {
+  grid-area: S2.2;
 }
 
-#G3 {
-    grid-area: G3;
-    background-image: url(/images/image3.jpeg);
-    background-position: center;
-    background-size: cover;
+#S2.3 {
+  grid-area: S2.3;
 }
 
-.section1-grid {
-    display: grid;
-    grid-template-areas: "G1 G1 G1 G1 G2 G2 G2"
-                        "G1 G1 G1 G1 G2 G2 G2"
-                        "G1 G1 G1 G1 G3 G3 G3"
-                        "G1 G1 G1 G1 G3 G3 G3";
-
-    grid-gap: 5px;
-                    
+#S2.4 {
+  grid-area: S2.4;
 }
+
+#S2.5 {
+  grid-area: S2.5;
+}
+
+#S2.6 {
+  grid-area: S2.6;
+}
+
+#S2.7 {
+  grid-area: S2.7;
+}
+
+#S2.8 {
+  grid-area: S2.8;
+}
+
+#S2header {
+  grid-area: S2header;
+}
+
+.section2-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+grid-gap: 5px;
+}
+/*     "S2header S2header S2header S2header S2header S2header S2header S2header S2header"
+    "S2.1 S2.1   S2.2 S2.2  S2.3 S2.3  S2.4 S2.4"
+    "S2.1  S2.2  S2.3  S2.4"
+    "S2.5 S2.6  S2.7  S2.8"
+    "S2.5 S2.6  S2.7  S2.8" */
 
 /* section 5 */
 
 .discount-section-main {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 20px;
-    padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
 }
-  .discount-section-main > div {
-    border:1px solid black;
-    text-align: center;
+.discount-section-main > div {
+  border: 1px solid black;
+  text-align: center;
 }
