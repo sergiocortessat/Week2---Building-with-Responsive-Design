@@ -118,6 +118,82 @@
                     
 }
 
+/* section 4 */
+
+.findings-section {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+  }
+
+.findings-section > div {
+    border: 1px solid black;
+    text-align:center;
+    width:33%;
+    height:auto;
+}
+
+.section4-div1 {
+    background-image: url(/images/image16.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section4-div2 {
+    background-image: url(/images/image20.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section4-div3 {
+    background-image: url(/images/image28.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section4-div4 {
+    background-image: url(/images/image2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section4-div5 {
+    background-image: url(/images/image18.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section4-div6 {
+    background-image: url(/images/image32.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section4-div7 {
+    background-image: url(/images/image26.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section4-div8 {
+    background-image: url(/images/image16.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section4-div9 {
+    background-image: url(/images/image32.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section4-small-images {
+    widows: 20px;
+    height:auto;
+}
+
+
 /* section 5 */
 
 .discount-section-main {
@@ -130,3 +206,4 @@
     border:1px solid black;
     text-align: center;
 }
+
