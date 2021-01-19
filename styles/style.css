@@ -12,31 +12,28 @@
   }
 
   .nav-bar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: fixed;
-      top: 0;
-      right: 0;
-      width: 100%;
-      z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
   }
 
-  .nav-barlogo {
-   padding: 0;
+  .nav-icon a {
+    padding-left: 15px;
+    padding-right: 10px;
   }
-    
-
-
-  .nav-icon a{
-    padding-left: 12px;
-  }
-
 
   /* main part */
 
-
+  main {
+    position: relative;
+    top: 40px;
   }
+
   /* SECTION1*/
   #G1 {
     background-image: url(/images/image1.jpeg);
@@ -64,7 +61,11 @@
     text-align: center;
   }
 
-
+  .msection1-main p {
+    font-family: Avalon, sans-serif;
+    font-size: 28px;
+    letter-spacing: -0.015em;
+  }
 
   /* SECTION2 */
 
