@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Week 1 Positioning and Floating
+# Week 2 Responsive Desgin
 
 > Creating first repository with Linter, separate commits and a HTML and CSS file
 
@@ -16,13 +16,13 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://sergiocortessat.github.io/Week1_Positioning-and-Floating-Elements-/
+[Live Demo Link](
 
 
 ## Getting Started
 
 
-First Microverse Project Week 1 Position and Floating page.
+First Microverse Project Week 2.
 
 
 ## Authors
@@ -33,11 +33,11 @@ First Microverse Project Week 1 Position and Floating page.
 - Twitter: [@twitterhandle](https://twitter.com/sergiocortessat)
 - LinkedIn: [LinkedIn](https://linkedin.com/sergiocortessat)
 
-👤 Muhammad Ahtsham
+👤 Donat Uwamahoro
 
-- GitHub: [@githubhandle](https://github.com/mahtsham)
-- Twitter: [@twitterhandle](https://twitter.com/mahtsham)
-- LinkedIn: [LinkedIn](https://linkedin.com/mahtsham)
+- GitHub: [@githubhandle](https://github.com/@uwadonat)
+- Twitter: [@twitterhandle](https://twitter.com/@uwamahoroDonat)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/uwamahoro-donat-84b5bb1b7/)
 
 ## 🤝 Contributing
 
@@ -58,7 +58,7 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 MIT License
-Copyright (c) 2021 sergiocortessat mahtsham
+Copyright (c) 2021 sergiocortessat DonatUwamahoro
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights

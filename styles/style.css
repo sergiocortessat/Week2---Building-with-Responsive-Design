@@ -367,9 +367,7 @@
   /* section 4 */
 
   .findings-section {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 10px;
+   display: inline-block;
   }
 
   .findings-section > div {
@@ -390,10 +388,7 @@
   #text-over-image1 {
     background-image: url(/images/image16.jpeg);
     background-position: center;
-<<<<<<< HEAD
-=======
     background-attachment: fixed;
->>>>>>> 5477711c8bd27e9a7ae14cb20b7fec43663a27cd
     background-size: cover;
   }
 
@@ -588,7 +583,6 @@
   text-align: center;
 }
 
-<<<<<<< HEAD
 .footer2 p {
   padding-top: 10px;
 }
@@ -623,8 +617,6 @@ aside {
 
 
 
-=======
->>>>>>> 5477711c8bd27e9a7ae14cb20b7fec43663a27cd
 @media only screen and (min-width: 760px) {
   .nav-barlogo {
     display: none;
@@ -819,12 +811,10 @@ aside {
         "S2.5 S2.6  S2.7  S2.8" */
 
   /* section 4 */
-
+ /* 
   .findings-section {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 20px;
-    padding: 10px;
+   display: inline-block;
+   padding: 5px;
   }
 
   .findings-section > div {
@@ -892,15 +882,19 @@ aside {
     widows: 20px;
     height: auto;
   }
-
+*/
   /* section 5 */
 
+  /*
   .discount-section-main {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 20px;
     padding: 10px;
   }
+
+  */
+  
   .discount-section-main > div {
     text-align: center;
   }
