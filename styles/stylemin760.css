@@ -271,6 +271,8 @@
   }
 
   .section1-main-cover {
+    display: flex;
+    flex-direction: column;
     margin-top: 50%;
     left: 20px;
     height: auto;
@@ -281,7 +283,7 @@
     left: 20px;
     height: auto;
   }
-}
+
 
 .section1-main-cover h5 {
   font-family: Shentox, sans-serif;
@@ -318,14 +320,13 @@
   margin: 0;
 }
 
-.section1-side-heading ul li {
-  display: inline-block;
-  vertical-align: middle;
+.section1-side-heading ul {
+  display: flex;
 }
 
 .section1-main-cover ul li {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
 }
 
 /* SECTION2 */
