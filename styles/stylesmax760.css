@@ -33,8 +33,6 @@
   */
   /* SECTION1*/
 
-  /*
-
   .section1 {
     display: inline-block;
     padding-top: 10%;
@@ -157,10 +155,12 @@
     font-weight: 200;
   }
 
-  */
-
   /* SECTION2 */
-
+  .section2-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+  }
 
   /* section 3 */
 
