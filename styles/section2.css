@@ -1,9 +1,8 @@
-
 #first {
   background-image: url(/images/image10.jpg);
 }
 
-#second{
+#second {
   background-image: url(/images/image11.jpeg);
 }
 
@@ -170,7 +169,6 @@ section {
   .section-2 > div {
     width: calc(25% - 13.5px);
   }
-
 }
 
 @media only screen and (min-width: 760px) and (max-width: 1024px) {
