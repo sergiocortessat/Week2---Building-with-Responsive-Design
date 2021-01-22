@@ -401,6 +401,29 @@
 
 /* SECTION 5 */
 
+.discount-title > div >a{
+  color: #f42;
+  font-weight: 700;
+  font-size: 1.6rem;
+  font-family: Avalon, sans-serif;
+  text-decoration: none;
+}
+
+.smimage img {
+  float: left;
+  clear: left;
+  width: 20%;
+  height: 20%;
+}
+
+.smimage {
+  padding-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+}
+
 footer {
   display: grid;
   grid-template-rows: 60% 40%;
@@ -541,7 +564,6 @@ footer {
     grid-gap: 10px;
     width: 100%;
     height: 500px;
-    box-shadow: inset -5em -20em 9em -2em rgba(0, 0, 0, 0.73);
   }
 
   .section1-full-logo span img {
@@ -551,6 +573,7 @@ footer {
     top: 20px;
     left: 20px;
     position: absolute;
+    box-shadow: inset -5em -20em 9em -2em rgba(0, 0, 0, 0.73);
   }
 
   .date {
@@ -650,8 +673,17 @@ footer {
     display:grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 8px;
-    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
   }
+
+  .discount-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 2%; 
+ }
 
   .smimage-text {
     position:relative;
@@ -663,6 +695,17 @@ footer {
     text-align: left;
   }
 
+  .smimage img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .smimage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
   }
 
 @media only screen and (max-width: 760px) {
@@ -815,20 +858,7 @@ footer {
     text-align: center;
   }
 
-  .smimage img {
-    float: left;
-    clear: left;
-    width: 20%;
-    height: 20%;
-  }
 
-  .smimage {
-    padding-bottom: 5px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-align: left;
-    text-decoration: none;
-  }
 
   .smimage a:hover {
     color: red;

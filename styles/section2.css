@@ -1,0 +1,173 @@
+/* ____________
+
+   /* _____________
+      IMAGES
+      _____________ */
+
+#space {
+  background-image: url(/images/image10.jpg);
+}
+
+#tech-skill {
+  background-image: url("../images/tech_skill.jpg");
+}
+
+#conflict {
+  background-image: url("../images/conflict.jpeg");
+}
+
+#developer {
+  background-image: url("../images/developer.jpg");
+}
+
+#chemistry {
+  background-image: url("../images/chemistry.jpg");
+}
+
+#debit-card {
+  background-image: url("../images/debit_card.png");
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.gradient {
+  background-image: linear-gradient(transparent, black 99%);
+}
+
+main {
+  padding-top: 48px;
+}
+
+section {
+  max-width: 1200px;
+  padding: 18px;
+  margin: auto;
+}
+
+.little-container > h3,
+.little-container > p {
+  margin: 0 0 0 86px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.2em;
+}
+
+.little-container > h3:hover {
+  color: #f42;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.little-container > p {
+  font-size: 14px;
+  font-weight: 300;
+  color: gray;
+  margin-top: 4px;
+}
+
+.orange {
+  color: #f42;
+}
+
+.orange.title:hover {
+  color: black;
+}
+
+.title {
+  text-decoration: none;
+  font-size: 1.6em;
+  font-family: "Paytone One", sans-serif;
+}
+
+.little-img {
+  left: 0;
+  padding-top: 75px;
+  position: absolute;
+  top: 0;
+  width: 75px;
+}
+
+.little-container {
+  position: relative;
+  margin: 0 0 1em 0;
+  height: 75px;
+}
+
+.little-container > p > a {
+  text-decoration: none;
+  color: gray;
+}
+
+.little-container > p > a:hover {
+  color: black;
+}
+
+.little-container > p > a::after {
+  content: "\B7";
+  margin: 0 4px;
+}
+
+.orange.secondary > li:hover {
+  color: black;
+  cursor: pointer;
+}
+
+. .smaller-img {
+  height: 60px;
+  width: 60px;
+  margin: 12px 12px 36px 12px;
+  float: left;
+}
+
+.others {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.9em;
+  color: rgb(170, 170, 170);
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+@media (min-width: 768px) {
+  .little-container > h3,
+  .little-container > p {
+    margin: 0 0 0 0;
+  }
+
+  .section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .section-2 > h2 {
+    width: 100%;
+  }
+
+  .section-2 > div {
+    width: calc(33.333% - 12px);
+    height: 210px;
+  }
+
+  .section-2 > div > a {
+    display: block;
+    position: static;
+    width: 100%;
+    height: 35%;
+  }
+
+  .little-container {
+    margin: 0 0 35px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-2 > div {
+    width: calc(25% - 13.5px);
+  }
+}
