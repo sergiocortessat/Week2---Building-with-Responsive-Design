@@ -4,7 +4,7 @@
 
 > Creating first repository with Linter, separate commits and a HTML and CSS file
 
-![screenshot](./app_screenshot2.png)
+![screenshot](./Screenshot.png)
 
 Additional description about the project and its features.
 

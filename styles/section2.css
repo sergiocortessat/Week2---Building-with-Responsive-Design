@@ -23,6 +23,14 @@
   background-image: url(/images/image16.jpeg);
 }
 
+#chemistry1 {
+  background-image: url(/images/image16.jpeg);
+}
+
+#debit-card1 {
+  background-image: url(/images/image30.jpeg);
+}
+
 .image {
   background-repeat: no-repeat;
   background-position: 50%;
@@ -33,12 +41,9 @@
   background-image: linear-gradient(transparent, black 99%);
 }
 
-main {
-  padding-top: 48px;
-}
-
 section {
-  max-width: 1200px;
+  width: 100%;
+  height: auto;
   padding: 18px;
   margin: auto;
 }
@@ -112,7 +117,7 @@ section {
   cursor: pointer;
 }
 
-. .smaller-img {
+.smaller-img {
   height: 60px;
   width: 60px;
   margin: 12px 12px 36px 12px;
@@ -153,7 +158,7 @@ section {
     display: block;
     position: static;
     width: 100%;
-    height: 35%;
+    height: 80%;
   }
 
   .little-container {

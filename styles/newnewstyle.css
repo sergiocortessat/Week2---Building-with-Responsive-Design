@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.nav-icon a {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
 .nav-bar1,
 .nav-bar2 {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
@@ -18,7 +23,6 @@
   padding: 0.6rem 0.3rem;
 }
 
-
 .nav-barlogo {
   display: flex;
   justify-content: space-between;
@@ -34,126 +38,15 @@
   padding: 15px;
 }
 
-.nav-barlogo > div > a {
-  padding: 5px;
-  color: #f42;
-}
-
-
-#G1 {
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.2),
-      rgba(0, 0, 0, 0.73)
-    ),
-    url(/images/image27.png);
-    height: auto;
-}
-
-
-#G2 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.2),
-      rgba(0, 0, 0, 0.73)
-    ),
-    url(/images/image2.png);
-  background-position: center;
-  background-size: cover;
-  height: auto;
-}
-
-#G3 {
-  
-}
-
-/* SECTION 1 */
-
-/* SECTION 2 */
-
-.section2 span svg {
-  width: 16px;
-  height: 16px;
-}
-
-.discount-section-main > div {
-  text-align: center;
-}
-
-.section2 {
-  width: 100%;
-  height: auto;
-}
-
-.section2 h2,
-.section2 span {
-  display: inline-block;
-}
-
-.section2 h2 {
-  color: #f42;
+.section1-side-heading a,
+.section1-main-cover a {
   text-decoration: none;
-  padding-left: 6px;
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
-.section2-items {
-  display: inline-block;
-  max-height: 95px;
-  max-width: 95%;
-  padding: 5px;
-}
-
-.section4-text-image header h3 {
-  margin: 0 0 6px 0;
-  font-size: 20px;
-}
-
-.section2 .section2-items h3 {
-  font-size: 0.9rem;
-  font-weight: 700;
-  line-height: 1rem;
-  margin: 0 0 0 90px;
-  font-family: Avalon, sans-serif;
-}
-
-.section2 .section2-items a h3 {
-  margin-bottom: 0;
-}
-
-.section3-items img {
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  margin: 15px 0 0 15px;
-}
-
-.latest-news img {
-  width: 96px;
-  height: 96px;
-}
-
-.section2 .section2-items img {
-  width: 75px;
-  height: 75px;
-  float: left;
-}
-
-.text-over-image1 p {
-  display: inline-block;
-}
-
-.section2 .section2-items a p {
-  display: inline-block;
-  margin-top: 6px;
-  margin-left: 15px;
-  font-size: 0.7rem;
-}
-
-.latest-news header h5,
-.latest-news header h4 {
-  color: #f42;
+.discount-title a {
+  text-decoration: none;
+  color: red;
 }
 
 .section3-items a {
@@ -186,11 +79,177 @@
   text-decoration: none;
 }
 
+.nav-barlogo > div > a {
+  padding: 5px;
+  color: #f42;
+}
+
+.section1-main-cover h2 {
+  font-size: 1.3rem;
+  line-height: 1;
+  color: #fff;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.section1-main-cover h5 {
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  margin: 0;
+  color: #fff;
+}
+
 .text-over-image1 header > a,
 .text-over-image1 header > time {
   font-size: 12px;
   color: hsla(0, 0%, 100%, 0.6);
   text-decoration: none;
+}
+
+.section1-main-cover ul li a {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 0.75rem;
+  font-weight: 200;
+}
+
+#G3 {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.2),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url(/images/image3.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.section1-side-heading {
+  bottom: 10px;
+  left: 20px;
+  height: auto;
+}
+
+.section1-side-heading h5 {
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  margin: 0;
+  color: #fff;
+}
+
+.section1-side-heading h2 {
+  font-family: Shentox, sans-serif;
+  color: #fff;
+  font-size: 1.1rem;
+  margin: 0;
+  padding-bottom: 6px;
+}
+
+.section1-side-heading ul li a {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 0.75rem;
+  font-weight: 200;
+}
+
+.discount-title1 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.discount-title2 {
+  font-size: 1rem;
+  margin-top: 0.6rem;
+}
+
+.discount-title a:hover {
+  color: black;
+}
+
+.smimage span {
+  text-align: left;
+  color: gray;
+  text-decoration: line-through;
+  padding-right: 0.4rem;
+}
+
+.smimage a:hover {
+  color: red;
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+#G1 {
+  background-position: center;
+  background-size: cover;
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.2),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url(/images/image27.png);
+  height: auto;
+}
+
+#G2 {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.2),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url(/images/image2.png);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
+
+/* SECTION 1 */
+
+/* SECTION 2 */
+
+.discount-section-main > div {
+  text-align: center;
+}
+
+.section4-text-image header h3 {
+  margin: 0 0 6px 0;
+  font-size: 20px;
+}
+
+.section3-items img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin: 15px 0 0 15px;
+}
+
+.latest-news img {
+  width: 96px;
+  height: 96px;
+}
+
+.smimage img {
+  float: left;
+  clear: left;
+  width: 20%;
+  height: 20%;
+}
+
+.text-over-image1 p {
+  display: inline-block;
+}
+
+.latest-news header h5,
+.latest-news header h4 {
+  color: #f42;
 }
 
 .section2 .section2-items time {
@@ -360,53 +419,45 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  height: auto;
+  width: 100%;
 }
 
 #section4-text-image1 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581-368x276.jpg
-  );
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581-368x276.jpg);
 }
 
 #section4-text-image2 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple-AR-glasses-headset-368x276.jpg
-  );
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple-AR-glasses-headset-368x276.jpg);
 }
 
 #section4-text-image3 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/urine-2-368x276.jpg
-  );
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/urine-2-368x276.jpg);
 }
 
 #section4-text-image4 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png
-  );
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png);
 }
 
 #section4-text-image5 {
-  background-image: url(https://s.w.org/images/core/emoji/11/svg/1f91d.svg
-  );
+  background-image: url(https://s.w.org/images/core/emoji/11/svg/1f91d.svg);
 }
 
 #section4-text-image6 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/boris-waiter-gq-368x276.png
-  );
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/boris-waiter-gq-368x276.png);
 }
 
 #section4-text-image7 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg
-  );
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg);
 }
 
 #section4-text-image8 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg
-  );
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg);
 }
 
 #section4-text-image9 {
-  background-image: url(https://cdnp3.stackassets.com/131a74f7d56643b61ee30fb3e8da705c53031bed/store/b32bf58c9865347773f96c04f56c69f07227e61baeb48f8ffffec4861e5e/sale_18296_primary_image.jpg
-  );
+  background-image: url(https://cdnp3.stackassets.com/131a74f7d56643b61ee30fb3e8da705c53031bed/store/b32bf58c9865347773f96c04f56c69f07227e61baeb48f8ffffec4861e5e/sale_18296_primary_image.jpg);
 }
-
 
 .latest-news {
   width: 100%;
@@ -445,21 +496,6 @@
 }
 
 /* SECTION 5 */
-
-.discount-title > div >a{
-  color: #f42;
-  font-weight: 700;
-  font-size: 1.6rem;
-  font-family: Avalon, sans-serif;
-  text-decoration: none;
-}
-
-.smimage img {
-  float: left;
-  clear: left;
-  width: 20%;
-  height: 20%;
-}
 
 .smimage {
   padding-bottom: 5px;
@@ -560,6 +596,7 @@ footer {
     width: 100%;
     padding: 0.5rem;
   }
+
   .nav-bar1-bottom {
     display: flex;
     flex-direction: row;
@@ -608,7 +645,12 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
     width: 100%;
-    height: 500px;
+    height: auto;
+  }
+
+  .smimage img {
+    width: 100%;
+    height: auto;
   }
 
   .section1-full-logo span img {
@@ -637,6 +679,24 @@ footer {
     margin-top: 50%;
     left: 20px;
     height: auto;
+  }
+
+  .discount-title > div > a {
+    color: #f42;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: Avalon, sans-serif;
+    text-decoration: none;
+  }
+
+  .section1-main-cover > ul {
+    display: flex;
+  }
+
+  .section1-side-heading > ul > li,
+  .section1-main-cover > ul > li {
+    padding: 2px;
+    list-style: none;
   }
 
   .section1-side-heading {
@@ -715,7 +775,7 @@ footer {
   }
 
   .discount-section-main {
-    display:grid;
+    display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 8px;
     width: 100%;
@@ -727,12 +787,12 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 2%; 
- }
+    height: 2%;
+  }
 
   .smimage-text {
-    position:relative;
-    display:flex;
+    position: relative;
+    display: flex;
     flex-direction: column;
     margin-left: 0;
     font-size: 18px;
@@ -740,18 +800,13 @@ footer {
     text-align: left;
   }
 
-  .smimage img {
-    width: 100%;
-    height: auto;
-  }
-  
   .smimage {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
   }
-  }
+}
 
 @media only screen and (max-width: 760px) {
   .nav-bar1 {
@@ -764,11 +819,6 @@ footer {
 
   .nav-bar1-bottom1 {
     display: none;
-  }
-
-  .nav-icon a {
-    padding-left: 15px;
-    padding-right: 10px;
   }
 
   /* SECTION1 */
@@ -788,85 +838,15 @@ footer {
     display: none;
   }
 
-
-  .section1-main-cover h2 {
-    font-size: 1.3rem;
-    line-height: 1;
-    color: #fff;
-    margin: 0;
-    padding-top: 15px;
-  }
-
-  .section1-main-cover h5 {
-    font-family: Shentox, sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    line-height: 1.5;
-    margin: 0;
-    color: #fff;
-  }
-
   .section1-main-cover ul li {
     display: inline-block;
     vertical-align: middle;
-  }
-
-  .section1-main-cover ul li a {
-    color: hsla(0, 0%, 100%, 0.6);
-    font-size: 0.75rem;
-    font-weight: 200;
-  }
-
-
-  #G3 {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(245, 246, 252, 0.2),
-        rgba(0, 0, 0, 0.73)
-      ),
-      url(/images/image3.jpeg);
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-  }
-
-  .section1-side-heading {
-    bottom: 10px;
-    left: 20px;
-    height: auto;
-  }
-
-  .section1-side-heading h5 {
-    font-family: Shentox, sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    line-height: 1.5;
-    margin: 0;
-    color: #fff;
-  }
-
-  .section1-side-heading h2 {
-    font-family: Shentox, sans-serif;
-    color: #fff;
-    font-size: 1.1rem;
-    margin: 0;
-    padding-bottom: 6px;
   }
 
   .section1-side-heading ul li {
     display: inline-block;
     vertical-align: middle;
   }
-
-  .section1-side-heading ul li a {
-    color: hsla(0, 0%, 100%, 0.6);
-    font-size: 0.75rem;
-    font-weight: 200;
-  }
-
-  /* SECTION2 */
 
   /* section 3 */
 
@@ -903,44 +883,10 @@ footer {
     text-align: center;
   }
 
-
-
-  .smimage a:hover {
-    color: red;
-    text-decoration: underline;
-    opacity: 0.7;
-  }
-
   .discount-title {
     display: flex;
     justify-content: space-between;
     width: 100%;
     color: red;
-  }
-
-  .discount-title1 {
-    font-size: 2rem;
-    font-weight: bolder;
-  }
-
-  .discount-title2 {
-    font-size: 1rem;
-    margin-top: 0.6rem;
-  }
-
-  .discount-title a {
-    text-decoration: none;
-    color: red;
-  }
-
-  .discount-title a:hover {
-    color: black;
-  }
-
-  .smimage span {
-    text-align: left;
-    color: gray;
-    text-decoration: line-through;
-    padding-right: 0.4rem;
   }
 }
