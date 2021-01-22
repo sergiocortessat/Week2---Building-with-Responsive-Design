@@ -53,6 +53,34 @@ a {
   height: 100%;
 }
 
+#title3 > div > a {
+  font-size: 22px;
+  color: #f42;
+}
+
+#title3 > div > p > a {
+  color: #f42;
+}
+
+#title3 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 120px auto 20px auto;
+}
+
+#title3 > div > a:hover {
+  color: black;
+}
+
+#title3 > div > p > a:hover {
+  color: black;
+}
+
+#image_title3 {
+  font-size: 20px;
+}
+
 @media only screen and (min-width: 768px) {
   #section5deals {
     grid-template-columns: 1fr 1fr 1fr;
@@ -64,7 +92,13 @@ a {
     height: 273px;
     grid-template-columns: unset;
   }
+
+  #title3 {
+    width: 97%;
+  }
 }
+
+
 
 /* desktop media querry */
 
@@ -86,5 +120,13 @@ a {
   .section5_items > img {
     width: 100%;
     height: 201px;
+  }
+
+  #image_title3 {
+    font-size: 26px;
+  }
+
+  #title3 {
+    width: 87%;
   }
 }
