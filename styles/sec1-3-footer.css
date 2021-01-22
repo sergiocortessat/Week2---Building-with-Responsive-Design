@@ -88,7 +88,7 @@ body {
       rgba(245, 246, 252, 0.2),
       rgba(0, 0, 0, 0.73)
     ),
-    url(/images/image3.jpeg);
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/kia-niro-tesla-model-s-ev-future-electric-car-jd-power-479x270.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -124,19 +124,6 @@ body {
   font-weight: 200;
 }
 
-#G1 {
-  background-position: center;
-  background-size: cover;
-  background-image:
-    linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.2),
-      rgba(0, 0, 0, 0.73)
-    ),
-    url(/images/google.jpeg);
-  height: auto;
-}
-
 #G2 {
   background-image:
     linear-gradient(
@@ -144,7 +131,7 @@ body {
       rgba(245, 246, 252, 0.2),
       rgba(0, 0, 0, 0.73)
     ),
-    url(/images/image2.png);
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/masseffect2pan-796x448.jpg");
   background-position: center;
   background-size: cover;
   height: auto;
@@ -382,18 +369,16 @@ footer {
     display: grid;
     grid-row: 1/3;
     grid-column: 1/3;
-  }
-
-  #G2 {
-    display: grid;
-    background-image: url(/images/image2.png);
-  }
-
-  #G3 {
-    display: grid;
-    background-image: url(/images/image3.jpeg);
     background-position: center;
     background-size: cover;
+    background-image:
+      linear-gradient(
+        to bottom,
+        rgba(245, 246, 252, 0.2),
+        rgba(0, 0, 0, 0.73)
+      ),
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/google-logo-podium-540x270.png");
+    height: auto;
   }
 
   .section1 {
