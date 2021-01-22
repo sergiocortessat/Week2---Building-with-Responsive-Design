@@ -645,7 +645,25 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
   }
-}
+
+  .discount-section-main {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 8px;
+    max-width: 100%;
+  }
+
+  .smimage-text {
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  }
 
 @media only screen and (max-width: 760px) {
   .nav-bar1 {
