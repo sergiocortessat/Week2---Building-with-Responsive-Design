@@ -5,8 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Project with responsive design_TNW</title>
-  <link rel="stylesheet" href="styles/newnewstyle.css" />
+  <link rel="stylesheet" href="styles/style.css" />
   <link rel="stylesheet" href="styles/section2.css" />
+  <link rel="stylesheet" href="styles/nav-bar.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://g1.nyt.com/fonts/css/web-fonts.5810def60210a2fa7d0848f37e3fa048bb6147b1.css" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/4a980e3ee7.js"></script>
@@ -16,50 +17,46 @@
 <body>
   <!--NAVBAR-->
 
-  <nav class="nav-bar1">
-    <div class="nav-bar1-left">
-      <a>News</a>
-      <a>Events</a>
-      <a>Business</a>
-      <a>AMAs</a>
-      <a>Spaces</a>
-      <a>Terms
-        & Conditions</a>
+  <nav id="nav_bar1">
+    <div id="links_left">
+        <a class="nav-bar1_links" href="#">News</a>
+        <a class="nav-bar1_links" href="#">Events</a>
+        <a class="nav-bar1_links" href="#">Business</a>
+        <a class="nav-bar1_links" href="#">AMAs</a>
+        <a class="nav-bar1_links" href="#">Spaces</a>
+        <a class="nav-bar1_links" href="#">Terms & Conditions</a>
     </div>
-
-    <div class="nav-bar1-top2-right">
-      <a>About</a>
-      <a>Advertise</a>
-      <a>Jobs</a>
-      <a>Contact</a>
+    <div id="links_right">
+        <a class="nav-bar1_links" href="#">About</a>
+        <a class="nav-bar1_links" href="#">Advertise</a>
+        <a class="nav-bar1_links" href="#">Jobs</a>
+        <a class="nav-bar1_links" href="#">Contact</a>
     </div>
-  </nav>
-
-  <nav class="nav-bar2">
-    <div class="nav-bar1-bottom">
-      <div class="nav-bar1-bottom1">
-        <a>Latest</a>
-        <a>Hard Fork</a>
-        <a>Plugged</a>
-        <a>ReadMe</a>
-        <a>Growth Quarters</a>
-      </div>
-
-      <div class="nav-icon">
-        <a class="loope-icon"><i class="fas fa-search"></i></a>
-      </div>
+</nav>
+<nav id="nav_bar2">
+    <div id="nav_bar2_cont">
+        <h2 id="logo_top">TNW</h2>
+        <a class="nav-bar2_links" href="#">LATEST</a>
+        <a class="nav-bar2_links" href="#">HARD FORK</a>
+        <a class="nav-bar2_links" href="#">PLUGGED</a>
+        <a class="nav-bar2_links" href="#">README</a>
+        <a class="nav-bar2_links" href="#">GROWTH QUARTERS</a>
     </div>
-  </nav>
-
-  <nav class="nav-bar3">
-    <div class="nav-barlogo">
-      <img src="images/tnwlogo.png" alt="TNWlogo">
-      <div>
-        <a class="loope-icon"><i class="fas fa-search"></i></a>
-        <a class="menu-icon"><i class="fas fa-bars"></i></a>
-      </div>
+    <div></div>
+    <div class="button_search">
+        <i class="fas fa-search"></i>
     </div>
-  </nav>
+</nav>
+<nav id="nav_bar3">
+    <div>
+        <div id="nav_bar_logo"><h2>TNW</h2></div>
+        <div class="button_search"></div>
+        <div id="cont_search_menu">
+            <i id="search_int" class="fas fa-search"></i>
+            <i id="menu_color" class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
 
   <!--MAIN SECTION-->
   <main>
@@ -120,14 +117,14 @@
     <section class="section-2">
       <h2><a href="#" class="orange title">Latest news <i class="fas fa-angle-right"></i></a></h2>
       <div class="little-container">
-        <a id="space" class="little-img image" href="#"></a>
+        <a id="first" class="little-img image" href="#"></a>
         <h3>
           Spooky space: Blue ring nebula reveals the secrets of binary stars
         </h3>
         <p><a href="#">The Cosmic Companion</a>18 hours ago</p>
       </div>
       <div class="little-container">
-        <a id="tech-skill" class="little-img image" href="#"></a>
+        <a id="second" class="little-img image" href="#"></a>
         <h3>
           If you want to learn a new tech skill, these training bundles can
           help. And it’s all under $21
@@ -135,12 +132,12 @@
         <p><a href="#">TNW Deals</a>18 hours ago</p>
       </div>
       <div class="little-container">
-        <a id="conflict" class="little-img image" href="#"></a>
+        <a id="third" class="little-img image" href="#"></a>
         <h3>4 ways to respond to vaccine skeptics on social media</h3>
         <p><a href="#">The Conversation</a>1 day ago</p>
       </div>
       <div class="little-container">
-        <a id="developer" class="little-img image" href="#"></a>
+        <a id="fourth" class="little-img image" href="#"></a>
         <h3>
           These extended Black Friday deals of work from home essentials can
           get 2021 off on the right foot
@@ -148,26 +145,26 @@
         <p><a href="#">TNW Deals</a>1 day ago</p>
       </div>
       <div class="little-container">
-        <a id="chemistry1" class="little-img image" href="#"></a>
+        <a id="fifth" class="little-img image" href="#"></a>
         <h3>
           Periodic table: Scientists propose new way of ordering the elements
         </h3>
         <p><a href="#">The Conversation</a>1 day ago</p>
       </div>
       <div class="little-container">
-        <a id="debit-card" class="little-img image" href="#"></a>
+        <a id="six" class="little-img image" href="#"></a>
         <h3>The universe is getting hotter as it gets older — here's why</h3>
         <p><a href="#">The Cosmic Companion</a>1 day ago</p>
       </div>
       <div class="little-container">
-        <a id="chemistry" class="little-img image" href="#"></a>
+        <a id="seven" class="little-img image" href="#"></a>
         <h3>
           Periodic table: Scientists propose new way of ordering the elements
         </h3>
         <p><a href="#">The Conversation</a>1 day ago</p>
       </div>
-      <div class="little-container">
-        <a id="debit-card1" class="little-img image" href="#"></a>
+      <div class="little-container" id="section2-hide">
+        <a id="eight" class="little-img image" href="#"></a>
         <h3>The universe is getting hotter as it gets older — here's why</h3>
         <p><a href="#">The Cosmic Companion</a>1 day ago</p>
       </div>

@@ -1,33 +1,33 @@
 
-#space {
+#first {
   background-image: url(/images/image10.jpg);
 }
 
-#tech-skill {
+#second{
   background-image: url(/images/image11.jpeg);
 }
 
-#conflict {
+#third {
   background-image: url(/images/image9.jpeg);
 }
 
-#developer {
+#fourth {
   background-image: url(/images/image5.jpg);
 }
 
-#chemistry {
+#fifth {
   background-image: url(/images/image24.jpg);
 }
 
-#debit-card {
+#six {
   background-image: url(/images/image16.jpeg);
 }
 
-#chemistry1 {
+#seven {
   background-image: url(/images/image16.jpeg);
 }
 
-#debit-card1 {
+#eight {
   background-image: url(/images/image30.jpeg);
 }
 
@@ -53,8 +53,8 @@ section {
   margin: 0 0 0 86px;
   font-family: Calibri, "Trebuchet MS", sans-serif;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 1.2em;
+  font-size: 12px;
+  line-height: 1.1em;
 }
 
 .little-container > h3:hover {
@@ -169,5 +169,12 @@ section {
 @media (min-width: 1024px) {
   .section-2 > div {
     width: calc(25% - 13.5px);
+  }
+
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  #section2-hide {
+    display: none;
   }
 }

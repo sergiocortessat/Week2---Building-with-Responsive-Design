@@ -1,41 +1,15 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-.nav-icon a {
-  padding-left: 15px;
-  padding-right: 10px;
+html {
+  overflow-x: hidden;
 }
 
-.nav-bar1,
-.nav-bar2 {
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 14px;
-}
-
-.nav-bar1-top a {
-  font-size: 100%;
-  padding: 0.6rem 0.3rem;
-}
-
-.nav-bar1-bottom a {
-  font-size: 100%;
-  padding: 0.6rem 0.3rem;
-}
-
-.nav-barlogo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  z-index: 1;
-}
-
-.nav-barlogo > div {
-  padding: 15px;
+a {
+  text-decoration: none;
 }
 
 .section1-side-heading a,
@@ -77,11 +51,6 @@
 .latest-title a {
   color: #f42;
   text-decoration: none;
-}
-
-.nav-barlogo > div > a {
-  padding: 5px;
-  color: #f42;
 }
 
 .section1-main-cover h2 {
@@ -587,37 +556,6 @@ footer {
 @media only screen and (min-width: 760px) {
   /* main part */
 
-  .nav-bar1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: black;
-    color: white;
-    width: 100%;
-    padding: 0.5rem;
-  }
-
-  .nav-bar1-bottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: white;
-    width: 100%;
-    padding: 0.5rem;
-  }
-
-  .nav-barlogo {
-    display: none !important;
-  }
-
-  .nav-bar1-left a {
-    padding: 2px;
-  }
-
-  .nav-bar1-top2-right a {
-    padding: 2px;
-  }
-
   /* SECTION1 */
 
   #G1 {
@@ -629,8 +567,6 @@ footer {
   #G2 {
     display: grid;
     background-image: url(/images/image2.png);
-    background-position: center;
-    background-size: cover;
   }
 
   #G3 {
