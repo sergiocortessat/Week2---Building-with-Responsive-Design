@@ -23,6 +23,14 @@ body {
   color: hsla(0, 0%, 100%, 0.6);
 }
 
+.section4-list-items li {
+  border-bottom: 1px solid grey;
+}
+
+.section1-main-cover > ul > li {
+  list-style: none !important;
+}
+
 .discount-title a {
   text-decoration: none;
   color: red;
@@ -51,7 +59,6 @@ body {
   margin-top: 10px;
   color: #f42;
   text-decoration: none;
-
 }
 
 .latest-title a {
@@ -192,11 +199,6 @@ body {
 
 .discount-section-main > div {
   text-align: center;
-}
-
-.section4-text-image header h3 {
-  margin: 0 0 6px 0;
-  font-size: 20px;
 }
 
 .section3-items img {
@@ -401,18 +403,14 @@ body {
 
 #section4-text-image1 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581-368x276.jpg);
-
 }
 
 #section4-text-image2 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple-AR-glasses-headset-368x276.jpg);
-
 }
 
 #section4-text-image3 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581-368x276.jpg);
-
-
 }
 
 #section4-text-image4 {
@@ -469,10 +467,6 @@ body {
   padding: 6px 0 6px 14px;
   border-bottom: 1px solid rgba(85, 85, 85, 0.1);
   text-decoration: none;
-}
-
-.section4-list-items li {
-  border-bottom: 1px solid grey;
 }
 
 /* SECTION 5 */

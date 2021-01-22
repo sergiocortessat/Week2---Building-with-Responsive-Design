@@ -139,10 +139,6 @@
 
 /* SECTION 1 */
 
-body {
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  width: 100%;
-}
 
 @media only screen and (min-width: 768px) {
   #nav_bar1 {
