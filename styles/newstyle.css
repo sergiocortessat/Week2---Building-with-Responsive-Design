@@ -244,3 +244,28 @@ flex-direction: column;
     z-index: 1;
   }
 }
+
+
+
+
+
+
+
+/*
+
+sectiobo1 {
+    display :grid: 
+    grid column: 1/3;
+    grid template rows: 90% 10%
+    grid row: 1/3
+    box-shadow: inset -5em -20em 9em -2em rgb black
+}
+
+
+{
+    display grid
+    height 100%
+    grid-template-rows 85% 15%
+}
+
+* /
