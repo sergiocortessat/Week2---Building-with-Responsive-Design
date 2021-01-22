@@ -48,7 +48,7 @@
       rgba(245, 246, 252, 0.2),
       rgba(0, 0, 0, 0.73)
     ),
-    url(/images/image11.jpeg);
+    url(/images/image27.png);
     height: auto;
 }
 
@@ -355,13 +355,58 @@
 }
 
 .section4-text-image {
-  background-image: url(/images/image4.jpg);
   background-position: center;
   padding-top: 60%;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
+
+#section4-text-image1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581-368x276.jpg
+  );
+}
+
+#section4-text-image2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple-AR-glasses-headset-368x276.jpg
+  );
+}
+
+#section4-text-image3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/urine-2-368x276.jpg
+  );
+}
+
+#section4-text-image4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png
+  );
+}
+
+#section4-text-image5 {
+  background-image: url(https://s.w.org/images/core/emoji/11/svg/1f91d.svg
+  );
+}
+
+#section4-text-image6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/boris-waiter-gq-368x276.png
+  );
+}
+
+#section4-text-image7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg
+  );
+}
+
+#section4-text-image8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg
+  );
+}
+
+#section4-text-image9 {
+  background-image: url(https://cdnp3.stackassets.com/131a74f7d56643b61ee30fb3e8da705c53031bed/store/b32bf58c9865347773f96c04f56c69f07227e61baeb48f8ffffec4861e5e/sale_18296_primary_image.jpg
+  );
+}
+
 
 .latest-news {
   width: 100%;

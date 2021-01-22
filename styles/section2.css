@@ -4,23 +4,23 @@
 }
 
 #tech-skill {
-  background-image: url("../images/tech_skill.jpg");
+  background-image: url(/images/image11.jpeg);
 }
 
 #conflict {
-  background-image: url("../images/conflict.jpeg");
+  background-image: url(/images/image9.jpeg);
 }
 
 #developer {
-  background-image: url("../images/developer.jpg");
+  background-image: url(/images/image5.jpg);
 }
 
 #chemistry {
-  background-image: url("../images/chemistry.jpg");
+  background-image: url(/images/image24.jpg);
 }
 
 #debit-card {
-  background-image: url("../images/debit_card.png");
+  background-image: url(/images/image16.jpeg);
 }
 
 .image {
