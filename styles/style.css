@@ -12,6 +12,11 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  width: 100%;
+}
+
 .section1-side-heading a,
 .section1-main-cover a {
   text-decoration: none;
@@ -46,6 +51,7 @@ a {
   margin-top: 10px;
   color: #f42;
   text-decoration: none;
+
 }
 
 .latest-title a {
@@ -62,7 +68,7 @@ a {
 }
 
 .section1-main-cover h5 {
-  font-family: Shentox, sans-serif;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -349,8 +355,9 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin: 30px auto 0 auto;
-  max-width: 74rem;
   flex-direction: column;
+  width: 80%;
+  height: auto;
 }
 
 .findings-section4 .section4-div1 {
@@ -394,14 +401,18 @@ a {
 
 #section4-text-image1 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581-368x276.jpg);
+
 }
 
 #section4-text-image2 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple-AR-glasses-headset-368x276.jpg);
+
 }
 
 #section4-text-image3 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/urine-2-368x276.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581-368x276.jpg);
+
+
 }
 
 #section4-text-image4 {
@@ -804,6 +815,7 @@ footer {
     display: block;
     height: auto;
     align-items: center;
+    margin-left: 2%;
   }
 
   .heading-menu {
@@ -812,7 +824,8 @@ footer {
   }
 
   .discount-section {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .discount-section-main > div {
