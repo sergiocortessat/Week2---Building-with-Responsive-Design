@@ -21,7 +21,6 @@ a {
   color: #f42;
 }
 
-
 .original_price {
   color: #aaa;
   font-size: small;
@@ -31,7 +30,7 @@ a {
   color: #3b3b3b;
 }
 
-#section5 {
+#section5deals {
   display: grid;
   grid-template-columns: unset;
   grid-gap: 20px;
@@ -55,7 +54,7 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
-  #section5 {
+  #section5deals {
     grid-template-columns: 1fr 1fr 1fr;
     height: 1000px;
     width: 97%;
@@ -74,7 +73,7 @@ a {
     font-size: 17px;
   }
 
-  #section5 {
+  #section5deals {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 600px;
     width: 90%;

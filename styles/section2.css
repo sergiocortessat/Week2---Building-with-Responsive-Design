@@ -19,7 +19,7 @@
 }
 
 #six {
-  background-image: url(/images/image16.jpeg);
+  background-image: url(/images/image4.jpg);
 }
 
 #seven {
@@ -50,10 +50,11 @@ section {
 .little-container > h3,
 .little-container > p {
   margin: 0 0 0 86px;
-  font-family: Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.1em;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .little-container > h3:hover {
@@ -95,6 +96,7 @@ section {
   position: relative;
   margin: 0 0 1em 0;
   height: 75px;
+  padding: 12px;
 }
 
 .little-container > p > a {
@@ -146,6 +148,8 @@ section {
 
   .section-2 > h2 {
     width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
   }
 
   .section-2 > div {

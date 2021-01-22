@@ -23,17 +23,8 @@ body {
   color: hsla(0, 0%, 100%, 0.6);
 }
 
-.section4-list-items li {
-  border-bottom: 1px solid grey;
-}
-
 .section1-main-cover > ul > li {
   list-style: none !important;
-}
-
-.discount-title a {
-  text-decoration: none;
-  color: red;
 }
 
 .section3-items a {
@@ -82,13 +73,6 @@ body {
   line-height: 1.5;
   margin: 0;
   color: #fff;
-}
-
-.text-over-image1 header > a,
-.text-over-image1 header > time {
-  font-size: 12px;
-  color: hsla(0, 0%, 100%, 0.6);
-  text-decoration: none;
 }
 
 .section1-main-cover ul li a {
@@ -140,33 +124,6 @@ body {
   font-weight: 200;
 }
 
-.discount-title1 {
-  font-size: 2rem;
-  font-weight: bolder;
-}
-
-.discount-title2 {
-  font-size: 1rem;
-  margin-top: 0.6rem;
-}
-
-.discount-title a:hover {
-  color: black;
-}
-
-.smimage span {
-  text-align: left;
-  color: gray;
-  text-decoration: line-through;
-  padding-right: 0.4rem;
-}
-
-.smimage a:hover {
-  color: red;
-  text-decoration: underline;
-  opacity: 0.7;
-}
-
 #G1 {
   background-position: center;
   background-size: cover;
@@ -197,10 +154,6 @@ body {
 
 /* SECTION 2 */
 
-.discount-section-main > div {
-  text-align: center;
-}
-
 .section3-items img {
   width: 60px;
   height: 60px;
@@ -211,22 +164,6 @@ body {
 .latest-news img {
   width: 96px;
   height: 96px;
-}
-
-.smimage img {
-  float: left;
-  clear: left;
-  width: 20%;
-  height: 20%;
-}
-
-.text-over-image1 p {
-  display: inline-block;
-}
-
-.latest-news header h5,
-.latest-news header h4 {
-  color: #f42;
 }
 
 .section2 .section2-items time {
@@ -285,27 +222,10 @@ body {
   margin: 0;
 }
 
-.latest-news header h4 {
-  margin: 0;
-  font-size: 14px;
-  max-height: 56px;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-}
-
 .section3-items a > div > h4 {
   margin: 0;
   padding: 0;
   display: block;
-}
-
-.findings-section4 header h5 {
-  margin: 0;
-  font-size: 13px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-family: Shentox, sans-serif;
 }
 
 .section3-items a > div > h5 {
@@ -352,91 +272,6 @@ body {
 
 /* SECTION 4 */
 
-.findings-section4 {
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 30px auto 0 auto;
-  flex-direction: column;
-  width: 80%;
-  height: auto;
-}
-
-.findings-section4 .section4-div1 {
-  margin: 12px;
-}
-
-.section4-text-image article {
-  position: relative;
-  bottom: 0;
-  padding: 14px;
-  z-index: 10;
-}
-
-.section4-div1 h2 span svg {
-  width: 16px;
-  height: 16px;
-}
-
-.section4-div1 h2 {
-  display: inline-block;
-  color: #f42;
-  margin-bottom: 14px;
-  font-weight: 700;
-  font-size: 1.7rem;
-  font-family: Avalon, sans-serif;
-}
-
-.text-over-image1 header .text-over-image1 header a {
-  color: #fff;
-}
-
-.section4-text-image {
-  background-position: center;
-  padding-top: 60%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  height: auto;
-  width: 100%;
-}
-
-#section4-text-image1 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581-368x276.jpg);
-}
-
-#section4-text-image2 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple-AR-glasses-headset-368x276.jpg);
-}
-
-#section4-text-image3 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581-368x276.jpg);
-}
-
-#section4-text-image4 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png);
-}
-
-#section4-text-image5 {
-  background-image: url(https://s.w.org/images/core/emoji/11/svg/1f91d.svg);
-}
-
-#section4-text-image6 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/boris-waiter-gq-368x276.png);
-}
-
-#section4-text-image7 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg);
-}
-
-#section4-text-image8 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg);
-}
-
-#section4-text-image9 {
-  background-image: url(https://cdnp3.stackassets.com/131a74f7d56643b61ee30fb3e8da705c53031bed/store/b32bf58c9865347773f96c04f56c69f07227e61baeb48f8ffffec4861e5e/sale_18296_primary_image.jpg);
-}
-
 .latest-news {
   width: 100%;
   display: flex;
@@ -457,26 +292,6 @@ body {
 
 .latest-news header div {
   padding: 14px 10px 0 14px;
-}
-
-.section4-list-items {
-  font-size: 13px;
-  line-height: 20px;
-  position: relative;
-  color: rgb(85, 85, 85);
-  padding: 6px 0 6px 14px;
-  border-bottom: 1px solid rgba(85, 85, 85, 0.1);
-  text-decoration: none;
-}
-
-/* SECTION 5 */
-
-.smimage {
-  padding-bottom: 5px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-align: left;
-  text-decoration: none;
 }
 
 footer {
@@ -622,14 +437,6 @@ footer {
     height: auto;
   }
 
-  .discount-title > div > a {
-    color: #f42;
-    font-weight: 700;
-    font-size: 1.6rem;
-    font-family: Avalon, sans-serif;
-    text-decoration: none;
-  }
-
   .section1-main-cover > ul {
     display: flex;
   }
@@ -706,46 +513,7 @@ footer {
     height: auto;
     align-items: center;
     justify-content: space-between;
-  }
-
-  /* section4 */
-
-  .findings-section4 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-  }
-
-  .discount-section-main {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 8px;
-    width: 100%;
-    height: auto;
-    margin-top: 2%;
-  }
-
-  .discount-title {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 2%;
-  }
-
-  .smimage-text {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-left: 0;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: left;
-  }
-
-  .smimage {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
+    margin: 0 10px;
   }
 }
 
@@ -815,21 +583,5 @@ footer {
   .heading-menu {
     display: flex;
     flex-direction: column;
-  }
-
-  .discount-section {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .discount-section-main > div {
-    text-align: center;
-  }
-
-  .discount-title {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    color: red;
   }
 }
