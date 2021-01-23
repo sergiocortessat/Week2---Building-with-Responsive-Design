@@ -1,0 +1,393 @@
+.part1 > a {
+  color: #f42;
+  font-weight: bolder;
+  font-size: 23px;
+}
+
+.before_image > p > a {
+  color: #f42;
+  font-weight: bold;
+}
+
+.part1 > a:hover {
+  color: black;
+}
+
+.before_image > p > a:hover {
+  border-bottom: 1px solid #f42;
+}
+
+.before_image > p {
+  color: #f42;
+  margin-left: 20px;
+}
+
+#part2_1 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_1 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_2 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_2 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_3 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_3 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_4 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_4 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_5 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_5 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_6 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_6 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_7 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_7 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_8 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_8 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_9 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_9 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+.hide {
+  display: none;
+}
+
+/* SECTION 4 */
+
+#section4 {
+  display: grid;
+  grid-template-columns: unset;
+  grid-gap: 20px;
+  width: 97%;
+  height: auto;
+  margin: auto;
+}
+
+.section4_items {
+  height: 730px;
+  width: 90%;
+  display: grid;
+  grid-template-rows: 10% 40% 15% 30%;
+  justify-items: center;
+  margin: 60px auto auto auto;
+}
+
+.part1 {
+  display: flex;
+  justify-self: start;
+  align-items: center;
+}
+
+#part2_1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Trump-Twitter-368x276.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+.part3 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 70% 30%;
+}
+
+.before_image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff4f2;
+}
+
+#part3_1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/winklevossbitcoin.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.part4 {
+  display: grid;
+  width: auto;
+  margin-top: 10px;
+}
+
+.part4 > ul > li {
+  border-bottom: 1px solid #eee;
+  font-size: smaller;
+  color: #3f3d3d;
+}
+
+.part4 > ul {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+  list-style: none;
+}
+
+ul li:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+.underline:hover {
+  text-decoration: underline;
+}
+
+/* 2 */
+
+#part2_2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Untitled-design-2020-10-01T165604.930-368x276.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+#part3_2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/android-auto-language-ev-future-car-infotainment-car-play-carplay-android-phone.png);
+  background-position: center;
+  background-size: cover;
+}
+
+/* 3 */
+
+#part2_3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Eye-strain-screen-time-hed-368x276.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+#part3_3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Sleep-hed.png);
+  background-position: center;
+  background-size: cover;
+}
+
+/* 4 */
+
+#part2_4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1-copy-29-368x276.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+#part3_4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/ev-phantom-rols-royce-silent-shadow-car-future-electric-vehicle.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* 5 */
+
+#part2_5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+#part3_5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* 6 */
+
+#part2_6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+#part3_6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/google-logo-podium.png);
+  background-position: center;
+  background-size: cover;
+}
+
+/* 7 */
+
+#part2_7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/salary-negotiation-meeting-gq-368x276.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+#part3_7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1-copy-27.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* 8 */
+
+#part2_8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+#part3_8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/hummer-ev-future-car-love-hate-next-gmc-gm-ultium.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* 9 */
+
+#part2_9 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/stellaris_hearts-368x276.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+#part3_9 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/boring-zoom-meeting-gq.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.part4 ul > li::before {
+  content: "\2022";
+  color: red;
+  margin-right: 6px;
+  list-style-position: inside;
+}
+
+@media only screen and (min-width: 768px) {
+  #section4 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* desktop media querry */
+
+@media only screen and (min-width: 1024px) {
+  #section4 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
